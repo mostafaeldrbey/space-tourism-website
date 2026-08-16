@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designer Info Page</title>
+    <link rel="stylesheet" href="css.sheet/bootstrap.min.css">
+    <link rel="stylesheet" href="css.sheet/all.min.css">
+    <link rel="stylesheet" href="css.sheet/style.css">
+
+</head>
+
+<body class="designerInfoPageStyle">
+
+    <header>
+        <nav
+            class="navbar navbar-expand-lg  m-3 w-50 ms-auto rounded-4 custom-blur bg-light bg-opacity-25 p-3 shadow font-monospace">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav fw-bold w-100 d-flex fs-5 justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="destination.html">Destination</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="crew.html">Crew</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="technology.html">Technology</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="designer-Info.html">Designer Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="mx-2 row mb-5">
+        <div class="col-12">
+            <h5 class="page-title text-dark fw-bold text-uppercase text-center text-md-start">
+                <span class="page-num text-dark-emphasis fw-bold me-2">04</span>
+                Meet Eng.Mostafa
+            </h5>
+        </div>
+    </div>
+
+    <section class="astronaut-hero-section align-items-center">
+
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-6 col-md-8 col-lg-5 mt-5 text-center text-white ms-md-3">
+
+                    <span class="badge text-bg-primary text-uppercase px-3 py-2 mb-3 tracking-widest fs-6">
+                        Frontend Developer
+                    </span>
+
+                    <h1 class="display-5 font-monospace fw-bold text-uppercase mb-3 glow-text">
+                        Mostafa Abdelaal
+                    </h1>
+
+                    <p class="lead text-light opacity-90 lh-lg mb-4">
+                        Business Administration graduate with a strong passion for Frontend Web Development. Crafting
+                        clean, responsive, and interactive space-themed web applications.
+                    </p>
+
+
+                    <div class="d-flex gap-3 align-items-center justify-content-center">
+                        <button id="exploreBtn" class="btn btn-primary btn-lg rounded-pill px-4 shadow">
+                            Explore Work
+                        </button>
+
+                        <a href="https://wa.me/201121942822" target="_blank"
+                            class="btn btn-outline-light btn-lg rounded-pill px-4">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div id="exploreToast" class="explore-toast text-start p-3 rounded-3 shadow-lg d-none">
+                        <div class="d-flex justify-content-between align-items-center gap-2">
+                            <p class="mb-0 text-white fs-6">
+                                🚀 If you want to explore more, feel free to contact me!
+                            </p>
+                            <button type="button" class="btn-close btn-close-white" id="closeToastBtn"></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="js.sheet/jquery-4.0.0.js"></script>
+    <script src="js.sheet/main.js"></script>
+</body>
+
+</html>

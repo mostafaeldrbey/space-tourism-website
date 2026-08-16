@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crew Page</title>
+    <link rel="stylesheet" href="css.sheet/bootstrap.min.css">
+    <link rel="stylesheet" href="css.sheet/all.min.css">
+    <link rel="stylesheet" href="css.sheet/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="crewPageStyle">
+
+    <header>
+        <nav
+            class="navbar navbar-expand-lg  m-3 w-50 ms-auto rounded-4 custom-blur bg-light bg-opacity-25 p-3 shadow font-monospace">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav fw-bold w-100 d-flex fs-5 justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="destination.html">Destination</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="crew.html">Crew</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="technology.html">Technology</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="designer-Info.html">Designer Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="mx-2 row mb-5">
+        <div class="col-12">
+            <h5 class="page-title text-uppercase text-center text-md-start">
+                <span class="page-num fw-bold me-2">02</span>
+                Meet your crew
+            </h5>
+        </div>
+    </div>
+
+    <div class="destination-container container my-5">
+
+        <div class="row align-items-end gy-4">
+
+            <div class="crew-info col-lg-6 d-flex flex-column justify-content-between ">
+                <h3 id="crewTag" class=" mx-5 text-secondary text-uppercase">Commander</h3>
+                <h1 id="crewTitle" class="crew-name display-4 fw-semibold mx-4 my-2 text-light text-uppercase">Douglas
+                    Hurley
+                </h1>
+                <p id="crewDescription" class="mx-4 crew-desc text-light text-lg-start text-start"> Douglas Gerald
+                    Hurley is an
+                    American engineer, former Marine Corps pilot
+                    and former NASA astronaut. He launched into space for the third time as
+                    commander of Crew Dragon Demo-2.
+                </p>
+
+
+                <div class="mt-5 mx-auto text-lg-start text-center">
+                    <ul
+                        class="font-monospace tab-list mx-5 nav gap-4 mb-4 justify-content-center justify-content-lg-start">
+                        <li class="nav-item">
+                            <button class="crew-btn rounded-circle border-0 active" data-index="0"></button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="crew-btn rounded-circle border-0" data-index="1"></button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="crew-btn rounded-circle border-0" data-index="2"></button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="crew-btn rounded-circle border-0" data-index="3"></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="crew-img col-lg-6 d-flex justify-content-end">
+                <img class="mx-5" id="crewImage" src="" alt="">
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="js.sheet/jquery-4.0.0.js"></script>
+    <script src="js.sheet/main.js"></script>
+</body>
+
+</html>

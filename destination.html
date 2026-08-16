@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination Page</title>
+    <link rel="stylesheet" href="css.sheet/bootstrap.min.css">
+    <link rel="stylesheet" href="css.sheet/all.min.css">
+    <link rel="stylesheet" href="css.sheet/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body class="destinationPageStyle">
+
+    <header>
+        <nav
+            class="navbar navbar-expand-lg  m-3 w-50 ms-auto rounded-4 custom-blur bg-light bg-opacity-25 p-3 shadow font-monospace">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav fw-bold w-100 d-flex fs-5 justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="destination.html">Destination</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="crew.html">Crew</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="technology.html">Technology</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="designer-Info.html">Designer Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="mx-2 row mb-5">
+        <div class="col-12">
+            <h5 class="page-title text-uppercase text-center text-md-start">
+                <span class="page-num fw-bold me-2">01</span>
+                Pick your destination
+            </h5>
+        </div>
+    </div>
+
+    <div class="destination-container container my-5">
+
+        <div class="row align-items-center gy-4">
+
+            <div class="planet-img col-lg-6 text-center">
+                <img class="img-fluid" id="planetImage" src="" alt="">
+            </div>
+
+            <div class="planet-info col-lg-6">
+
+                <ul class="font-monospace tab-list mx-5 nav tab-list gap-4 mb-4 justify-content-center justify-content-lg-start">
+                    <li class="nav-item">
+                        <button class="tab-btn active" data-index="0">MOON</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="tab-btn" data-index="1">MARS</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="tab-btn" data-index="2">EUROPA</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="tab-btn" data-index="3">TITAN</button>
+                    </li>
+                </ul>
+
+                <h1 id="planetTitle" class="planet-name mx-5 my-3 fw-light text-light display-1 text-uppercase">MOON</h1>
+                <p id="planetDescription" class="m mx-5 planet-desc text-lg-start text-center"> See our planet as you’ve
+                    never seen it before. A perfect relaxing trip away to help
+                    regain perspective and come back refreshed. While you’re there, take in some history
+                    by visiting the Luna 2 and Apollo 11 landing sites.</p>
+
+                <hr class="mx-3 border-light my-4">
+
+                <div class="mx-5 row planet-meta text-center text-lg-start gy-3">
+
+                    <div class="col-sm-6">
+                        <span class="meta-title d-block text-uppercase small text-secondary">AVG. DISTANCE</span>
+                        <h3 class="meta-value text-white text-uppercase fs-3" id="planetDistance">384,400 KM</h3>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <span class="meta-title d-block text-uppercase small text-secondary">EST. TRAVEL TIME</span>
+                        <h3 class="meta-value text-white text-uppercase fs-3" id="planetTravel">3 DAYS</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="js.sheet/jquery-4.0.0.js"></script>
+    <script src="js.sheet/main.js"></script>
+</body>
+
+</html>

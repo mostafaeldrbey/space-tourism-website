@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology Page</title>
+    <link rel="stylesheet" href="css.sheet/bootstrap.min.css">
+    <link rel="stylesheet" href="css.sheet/all.min.css">
+    <link rel="stylesheet" href="css.sheet/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="technologyPageStyle">
+
+    <header>
+        <nav
+            class="navbar navbar-expand-lg  m-3 w-50 ms-auto rounded-4 custom-blur bg-light bg-opacity-25 p-3 shadow font-monospace">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav fw-bold w-100 d-flex fs-5 justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="destination.html">Destination</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="crew.html">Crew</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="technology.html">Technology</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="designer-Info.html">Designer Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="mx-2 row mb-5">
+        <div class="col-12">
+            <h5 class="page-title text-uppercase text-center text-md-start">
+                <span class="page-num fw-bold me-2">03</span>
+                Space launch 101
+            </h5>
+        </div>
+    </div>
+
+    <div class="container-fluid ps-lg-5">
+        <div class="row align-items-center gy-5">
+
+            <div class="col-lg-6">
+                <div
+                    class="d-flex flex-column flex-md-row align-items-center align-items-md-start gap-4 gap-lg-5 text-center text-md-start">
+
+                    <ul class="nav flex-row flex-md-column ms-4 gap-4 justify-content-center p-0 m-auto list-unstyled">
+                        <li>
+                            <button
+                                class="btn tech-btn active rounded-circle d-flex align-items-center justify-content-center"
+                                data-index="0">1</button>
+                        </li>
+                        <li>
+                            <button class="btn tech-btn rounded-circle d-flex align-items-center justify-content-center"
+                                data-index="1">2</button>
+                        </li>
+                        <li>
+                            <button class="btn tech-btn rounded-circle d-flex align-items-center justify-content-center"
+                                data-index="2">3</button>
+                        </li>
+                    </ul>
+
+                    <div class="tech-content pe-lg-4">
+                        <span class="text-uppercase text-secondary tracking-widest d-block mb-2 fs-6">THE
+                            TERMINOLOGY...</span>
+                        <h1 class="text-white text-uppercase display-4 font-monospace fw-semibold mb-3" id="techTitle">LAUNCH VEHICLE
+                        </h1>
+                        <p class="text-secondary lh-lg fs-6" id="techDescription">
+                            A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload
+                            from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier
+                            rocket is the most powerful in operation. Standing 150 metres tall, it's quite an
+                            awe-inspiring sight on the launch pad!
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-5 pe-0 text-end">
+                <img id="techImage" src="./assets/technology/image-launch-vehicle-portrait.jpg" alt="Launch Vehicle"
+                    class="img-fluid tech-img w-75">
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="js.sheet/jquery-4.0.0.js"></script>
+    <script src="js.sheet/main.js"></script>
+</body>
+
+</html>
